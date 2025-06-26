@@ -1,0 +1,168 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.w-1{
+    font-size: 50px;
+}
+.height{
+    height: 40px;
+    width: 160px;
+}
+/* nav class */
+.e-14{
+  text-decoration: none;
+  font-size: 15px;
+}
+ .e-14 > a {
+  color: rgb(101, 97, 97);
+}
+.e-14 a:hover {
+    color: rgb(191, 61, 61);
+    text-decoration: none;
+  }
+  
+.jale{
+    width: 10%;
+    margin-top: 95px;
+    margin-left: 32px;
+}
+.b1{
+    border-radius: 25px;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    
+}
+.b1:hover{
+    background-color: rgb(189, 34, 34);
+    transition: 0.7s;
+    animation: b1 1s ease infinite;
+}
+        @keyframes b1 {
+        0% {
+          transform: scale(1, 1);
+        }
+        50%{
+          transform: scale(1.1, 1.1);
+        }
+        100% {
+          transform: scale(1, 1);
+        }
+    }
+
+
+/* home area */
+.e-10{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cover{
+    background-image: url('assests/intro-header-bg-mobile.jpg');
+    background-position: bottom;
+    background-size: cover;
+}
+.top2{
+background-color: #ECD2DD;
+align-content: center;
+align-items: center;
+margin-top: 30px;
+}
+.e-2{
+    vertical-align: middle;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    }
+    /* pink area */
+
+.e-6{
+    align-content: center;
+}
+.e-13{
+    font-size: 70px;
+}
+.top5{
+    background-color: #F7EEE8;
+    margin-top: 30px;
+}
+.e-4{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2vh;
+    transition: transform .2s ease;
+    cursor: pointer;
+}
+.e-4:hover {
+    transform: scale(1.1);
+}
+/* pictures */
+.e-11{
+    margin-top:30px
+}
+.e-12{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transform: translateY(0px);
+}
+.e-12:hover{
+    transform: translateY(-10px);
+}
+/* hover styles */
+.black{
+    background-image: url('assests/bg-3.jpg');
+    background-size: cover;
+    margin-top: 30px;
+    background-position: center;
+}
+
+.e-7{
+    border-radius: 5%;
+}
+.f1{
+    font-size: 60px;
+}
+/* translation */
+.trans{
+    background-image: url('assests/bg-2.jpg');
+    margin-top:30px;
+    background-size: cover;
+    background-position: center;
+}
+.e-5{
+    font-size: 22px;
+    line-height: 1.2em;
+}  
+/* features part */
+.e-9{
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 1.6em;
+    color: rgba(0,0,0,1)
+ }
+/* footer */
+.dot{
+    margin-top: 30px;
+    background-image: url('assests/bg-1.jpg');
+    background-position:center;
+    background-size: cover;
+    }
+.shop{
+    font-size: 50px;
+    }
+.top{
+    margin-left: 1175px;
+}
+/* homepage */
+.d-1{
+    position: relative;
+    transition: transform 0.3s ease;
+    transform: translateY(0px);
+    cursor: pointer;
+ }
+.d-1:hover{
+    transform: translateY(10px);
+}
